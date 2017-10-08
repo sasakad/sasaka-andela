@@ -92,6 +92,46 @@ A
  </form>
 </body>
 </div>
+    <table id="myTable">
+  <tr>
+
+  <th id="myname">Item</th>
+  <th>Description</th>
+
+  <th>Price</th>
+  </tr>
+  <tr>
+    <td>Row1 cell1</td>
+    <td>Row1 cell2</td>
+     <td>Row1 cell3</td>
+  </tr>
+  <tr>
+    <td>Row2 cell1</td>
+    <td>Row2 cell2</td>
+     <td>Row2 cell3</td>
+  </tr>
+  <tr>
+    <td>Row3 cell1</td>
+    <td>Row3 cell2</td>
+    <td>Row3 cell3</td>
+<tr>
+    <td>Row4 cell1</td>
+    <td>Row4 cell2</td>
+    <td>Row4 cell3</td>
+  </tr>
+  </tr>
+</table>
+<br>
+
+<button onclick="myDeleteFunction()">Empty cart</button>
+
+<script>
+
+
+function myDeleteFunction() {
+    document.getElementById("myTable").deleteRow(0);
+}
+</script>
 
 </html>
 
